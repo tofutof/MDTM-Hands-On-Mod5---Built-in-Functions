@@ -1,0 +1,53 @@
+/* Apple Eco Minimalist Style */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Arial, sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+th {
+    background-color: #f5f5f7;
+    padding: 14px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.section td {
+    background-color: #f0f0f2;
+    font-weight: 600;
+    color: #333;
+}
+
+tr:hover td {
+    background-color: #fafafa;
+}
